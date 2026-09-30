@@ -564,9 +564,9 @@ a {
     display: block;
 }
 
-.section-header > div {
+/* .section-header > div {
     color: inherit;
-}
+} */
 
 .section-label {
     color: #9299a4;
@@ -596,9 +596,9 @@ a {
     color: var(--accent);
 }
 
-.section-header h2:not(:has(span)) {
+/* .section-header h2:not(:has(span)) {
     color: #ffffff;
-}
+} */
 
 
 /* =========================================
