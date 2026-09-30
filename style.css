@@ -551,7 +551,6 @@ a {
     transform: rotate(-40deg);
 }
 
-
 /* =========================================
    SECTIONS
 ========================================= */
@@ -563,10 +562,6 @@ a {
 .section-header {
     display: block;
 }
-
-/* .section-header > div {
-    color: inherit;
-} */
 
 .section-label {
     color: #9299a4;
@@ -581,7 +576,7 @@ a {
 .section-header h2 {
     margin-top: 12px;
 
-    color: #ffffff;
+    color: #ffffff !important;
 
     font-size: clamp(38px, 5vw, 62px);
 
@@ -593,12 +588,8 @@ a {
 }
 
 .section-header h2 span {
-    color: var(--accent);
+    color: var(--accent) !important;
 }
-
-/* .section-header h2:not(:has(span)) {
-    color: #ffffff;
-} */
 
 
 /* =========================================
