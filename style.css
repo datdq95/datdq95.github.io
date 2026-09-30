@@ -1690,18 +1690,3 @@ footer {
         font-size: 9px;
     }
 }
-```
-
-**Điểm quan trọng nhất mình đã sửa** là:
-
-```css
-.section-header {
-    display: block;
-}
-
-.project-heading {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: end;
-    gap: 40px;
-}
