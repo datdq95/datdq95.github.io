@@ -591,21 +591,7 @@ a {
 }
 
 .section-header {
-    display: grid;
-
-    grid-template-columns: 80px 1fr;
-
-    gap: 20px;
-}
-
-.section-number {
-    padding-top: 7px;
-
-    color: var(--accent);
-
-    font-family: "DM Mono", monospace;
-
-    font-size: 12px;
+    display: block;
 }
 
 .section-label {
@@ -976,7 +962,9 @@ a {
 }
 
 
-/* CLEANING */
+/* =========================================
+   CLEANING
+========================================= */
 
 .cleaning {
     background:
@@ -1067,7 +1055,9 @@ a {
 }
 
 
-/* BLOCK */
+/* =========================================
+   BLOCK
+========================================= */
 
 .block-blast {
     display: grid;
@@ -1113,7 +1103,9 @@ a {
 }
 
 
-/* RING */
+/* =========================================
+   RING
+========================================= */
 
 .ring-game {
     display: grid;
@@ -1431,7 +1423,8 @@ a {
     font-weight: 600;
 
     transition:
-        transform 0.2s ease;
+        transform 0.2s ease,
+        background 0.2s ease;
 }
 
 .contact-button:hover {
@@ -1456,38 +1449,67 @@ footer {
 
     align-items: center;
 
-    justify-content: space-between;
-}
-
-.footer-logo {
-    color: #ffffff;
-
-    font-family: "DM Mono", monospace;
-
-    font-size: 13px;
-}
-
-.footer-container p {
-    color: #8a919b;
-
-    font-size: 11px;
+    justify-content: flex-end;
 }
 
 .footer-links {
     display: flex;
 
-    gap: 20px;
+    align-items: center;
+
+    gap: 22px;
 }
 
 .footer-links a {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
     color: #a1a8b2;
 
-    font-family: "DM Mono", monospace;
-
-    font-size: 10px;
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .footer-links a:hover {
+    color: var(--accent);
+
+    transform: translateY(-2px);
+}
+
+.footer-links svg {
+    width: 20px;
+
+    height: 20px;
+
+    fill: currentColor;
+}
+
+.email-link {
+    gap: 10px;
+
+    font-family: "DM Mono", monospace;
+
+    font-size: 11px;
+}
+
+.email-link svg {
+    width: 19px;
+
+    height: 19px;
+}
+
+.email-link span {
+    color: #a1a8b2;
+
+    transition:
+        color 0.2s ease;
+}
+
+.email-link:hover span {
     color: var(--accent);
 }
 
@@ -1564,6 +1586,8 @@ footer {
 
     .hero-stats {
         gap: 20px;
+
+        flex-wrap: wrap;
     }
 
     .stat strong {
@@ -1579,7 +1603,7 @@ footer {
     }
 
     .section-header {
-        grid-template-columns: 45px 1fr;
+        display: block;
     }
 
     .section-header h2 {
@@ -1643,10 +1667,51 @@ footer {
     }
 
     .footer-container {
-        padding: 25px 0;
+        min-height: 80px;
 
+        padding: 20px 0;
+
+        justify-content: center;
+    }
+
+    .footer-links {
+        gap: 18px;
+    }
+
+    .email-link {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 420px) {
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-actions {
         flex-direction: column;
 
-        gap: 15px;
+        align-items: stretch;
+    }
+
+    .primary-button,
+    .secondary-button {
+        justify-content: center;
+    }
+
+    .hero-stats {
+        gap: 18px;
+    }
+
+    .contact-button {
+        width: 100%;
+
+        justify-content: space-between;
+    }
+
+    .email-link span {
+        font-size: 9px;
     }
 }
