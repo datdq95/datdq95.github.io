@@ -1,40 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <title>Dao Quang Dat | Unity Game Developer</title>
 
     <meta
         name="description"
-        content="Quang Dat — Game Developer specializing in Unity, C#, Cocos Creator, mobile games, game architecture and performance optimization."
+        content="Quang Dat — Unity Game Developer specializing in C#, mobile games, game architecture and performance optimization."
     >
 
-    <meta
-        name="author"
-        content="Dao Quang Dat"
-    >
-
-    <title>Dao Quang Dat | Game Developer</title>
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <div class="container navbar">
+<div class="background-grid"></div>
 
-        <a
-            href="#home"
-            class="logo"
-        >
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#" class="logo">
+            <span class="logo-symbol">&lt;/&gt;</span>
             QUANG DAT
         </a>
 
@@ -42,72 +32,59 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#experience">Journey</a>
+            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
         </nav>
 
-        <a
-            href="#contact"
-            class="nav-button"
-        >
+        <a href="#contact" class="nav-button">
             Let's Talk
         </a>
 
     </div>
+
 </header>
 
 
 <main>
 
-    <!-- =========================
-         HERO
-    ========================== -->
+    <!-- HERO -->
 
-    <section
-        id="home"
-        class="hero"
-    >
+    <section class="hero">
 
-        <div class="container hero-grid">
+        <div class="container hero-container">
 
             <div class="hero-content">
 
-                <div class="eyebrow">
+                <div class="status">
+                    <span class="status-dot"></span>
                     AVAILABLE FOR OPPORTUNITIES
                 </div>
 
-                <div class="hero-label">
-                    GAME DEVELOPER
-                </div>
+                <p class="hero-label">
+                    UNITY GAME DEVELOPER
+                </p>
 
                 <h1>
-                    I BUILD GAMES
-                    <br>
+                    I BUILD
+                    <span>GAMES</span>
                     THAT PLAY
-                    <span>SMOOTH.</span>
+                    <em>SMOOTH.</em>
                 </h1>
 
                 <p class="hero-description">
-                    Game Developer specializing in Unity, C#, Cocos Creator
-                    and mobile game development. Focused on clean architecture,
-                    gameplay systems, performance optimization and scalable
-                    game development workflows.
+                    Unity developer focused on mobile games, scalable
+                    game architecture, performance optimization and
+                    creating polished player experiences.
                 </p>
 
-                <div class="hero-buttons">
+                <div class="hero-actions">
 
-                    <a
-                        href="#projects"
-                        class="button-primary"
-                    >
+                    <a href="#projects" class="primary-button">
                         View My Work
                         <span>↗</span>
                     </a>
 
-                    <a
-                        href="#contact"
-                        class="button-secondary"
-                    >
+                    <a href="#contact" class="secondary-button">
                         Contact Me
                     </a>
 
@@ -115,24 +92,19 @@
 
                 <div class="hero-stats">
 
-                    <div class="hero-stat">
+                    <div class="stat">
                         <strong>Unity</strong>
                         <span>Game Engine</span>
                     </div>
 
-                    <div class="hero-stat">
-                        <strong>Cocos</strong>
-                        <span>Game Engine</span>
-                    </div>
-
-                    <div class="hero-stat">
+                    <div class="stat">
                         <strong>C#</strong>
                         <span>Programming</span>
                     </div>
 
-                    <div class="hero-stat">
+                    <div class="stat">
                         <strong>Mobile</strong>
-                        <span>Development</span>
+                        <span>Game Development</span>
                     </div>
 
                 </div>
@@ -142,97 +114,95 @@
 
             <div class="hero-visual">
 
-                <div class="code-window">
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+
+                <div class="code-card">
 
                     <div class="code-header">
 
-                        <span class="code-dot"></span>
-                        <span class="code-dot"></span>
-                        <span class="code-dot"></span>
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
 
-                        <span class="code-title">
-                            GameDeveloper.cs
+                        <span>GameDeveloper.cs</span>
+
+                    </div>
+
+                    <div class="code-content">
+
+                        <span class="code-line">
+                            <i>01</i>
+                            <b>public class</b>
+                            <strong> GameDeveloper</strong>
+                        </span>
+
+                        <span class="code-line">
+                            <i>02</i>
+                            {
+                        </span>
+
+                        <span class="code-line indent">
+                            <i>03</i>
+                            <b>public</b> string Role =
+                        </span>
+
+                        <span class="code-line indent double">
+                            <i>04</i>
+                            <span class="string">
+                                "Unity Developer";
+                            </span>
+                        </span>
+
+                        <span class="code-line indent">
+                            <i>05</i>
+                            <b>void</b> BuildGame()
+                        </span>
+
+                        <span class="code-line indent">
+                            <i>06</i>
+                            {
+                        </span>
+
+                        <span class="code-line indent double">
+                            <i>07</i>
+                            Create();
+                        </span>
+
+                        <span class="code-line indent double">
+                            <i>08</i>
+                            Optimize();
+                        </span>
+
+                        <span class="code-line indent double">
+                            <i>09</i>
+                            Ship();
+                        </span>
+
+                        <span class="code-line indent">
+                            <i>10</i>
+                            }
+                        </span>
+
+                        <span class="code-line">
+                            <i>11</i>
+                            }
                         </span>
 
                     </div>
 
-                    <div class="code-body">
+                    <div class="code-footer">
 
-                        <div class="code-line">
-                            <span class="code-number">01</span>
-                            <span class="code-keyword">public class</span>
-                            <span class="code-type">GameDeveloper</span>
-                        </div>
+                        <span>
+                            ● SYSTEM READY
+                        </span>
 
-                        <div class="code-line">
-                            <span class="code-number">02</span>
-                            {
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">03</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <span class="code-keyword">private</span>
-                            <span class="code-type">void</span>
-                            <span class="code-method">BuildGame</span>()
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">04</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;{
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">05</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <span class="code-keyword">while</span>
-                            (<span class="code-string">true</span>)
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">06</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">07</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <span class="code-method">Create</span>();
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">08</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <span class="code-method">Optimize</span>();
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">09</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <span class="code-method">Ship</span>();
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">10</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">11</span>
-                            &nbsp;&nbsp;&nbsp;&nbsp;}
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">12</span>
-                            }
-                        </div>
-
-                        <div class="code-line">
-                            <span class="code-number">13</span>
-                            <span class="code-comment">
-                                // Keep building.
-                            </span>
-                        </div>
+                        <span>
+                            UNITY / C#
+                        </span>
 
                     </div>
 
@@ -245,27 +215,19 @@
     </section>
 
 
-    <!-- =========================
-         ABOUT
-    ========================== -->
+    <!-- ABOUT -->
 
-    <section
-        id="about"
-        class="about"
-    >
+    <section id="about" class="section">
 
         <div class="container">
 
             <div class="section-header">
 
-                <div>
-                    <div class="section-label">
-                        01 / About
-                    </div>
+                <span class="section-number">01</span>
 
-                    <h2 class="section-title">
-                        About Me
-                    </h2>
+                <div>
+                    <p class="section-label">ABOUT ME</p>
+                    <h2>Building games<br>with <span>purpose.</span></h2>
                 </div>
 
             </div>
@@ -273,37 +235,77 @@
 
             <div class="about-grid">
 
-                <div>
+                <div class="about-text">
 
-                    <p class="about-intro">
-                        I am a Game Developer focused on building
-                        responsive, scalable and performance-oriented
-                        mobile games.
+                    <p class="large-text">
+                        I'm a Unity Game Developer who enjoys turning
+                        ideas into responsive, scalable and enjoyable
+                        mobile game experiences.
+                    </p>
+
+                    <p>
+                        My focus is not only making things work, but
+                        understanding what happens underneath — from
+                        gameplay architecture and memory allocation
+                        to rendering, object pooling and mobile
+                        performance.
+                    </p>
+
+                    <p>
+                        I enjoy solving technical problems and building
+                        systems that can grow with the game.
                     </p>
 
                 </div>
 
 
-                <div class="about-text">
+                <div class="about-terminal">
 
-                    <p>
-                        I have experience developing mobile games using
-                        Unity and Cocos Creator, with a strong focus on
-                        gameplay programming, game systems and performance.
-                    </p>
+                    <div class="terminal-header">
+                        <span>developer_profile</span>
+                        <span>●</span>
+                    </div>
 
-                    <p>
-                        My development experience includes gameplay systems,
-                        UI, animation, object pooling, optimization,
-                        monetization, mobile SDK integration and
-                        production workflows.
-                    </p>
+                    <div class="terminal-body">
 
-                    <p>
-                        I enjoy solving technical problems, improving
-                        development workflows and turning ideas into
-                        polished playable experiences.
-                    </p>
+                        <p>
+                            <span class="terminal-green">$</span>
+                            whoami
+                        </p>
+
+                        <p class="terminal-output">
+                            DAO QUANG DAT
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">$</span>
+                            current_focus
+                        </p>
+
+                        <p class="terminal-output">
+                            Mobile Game Development
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">$</span>
+                            mindset
+                        </p>
+
+                        <p class="terminal-output">
+                            Build → Measure → Optimize
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">$</span>
+                            status
+                        </p>
+
+                        <p class="terminal-output">
+                            <span class="online-dot"></span>
+                            Open to opportunities
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -314,177 +316,106 @@
     </section>
 
 
-    <!-- =========================
-         SKILLS
-    ========================== -->
+    <!-- SKILLS -->
 
-    <section
-        id="skills"
-        class="skills"
-    >
+    <section id="skills" class="section skills-section">
 
         <div class="container">
 
             <div class="section-header">
 
+                <span class="section-number">02</span>
+
                 <div>
-
-                    <div class="section-label">
-                        02 / Skills
-                    </div>
-
-                    <h2 class="section-title">
-                        What I Work With
-                    </h2>
-
+                    <p class="section-label">TECH STACK</p>
+                    <h2>Tools I <span>work with.</span></h2>
                 </div>
-
-                <p class="section-description">
-                    Technologies and development areas I use to build
-                    mobile games and interactive experiences.
-                </p>
 
             </div>
 
 
             <div class="skills-grid">
 
-                <!-- Unity -->
-
                 <div class="skill-card featured">
 
-                    <div class="skill-icon">
-                        U
-                    </div>
+                    <div class="skill-icon">U</div>
 
                     <div>
                         <h3>Unity</h3>
                         <p>Game Development</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
 
-                <!-- Cocos -->
-
                 <div class="skill-card">
 
-                    <div class="skill-icon">
-                        C
-                    </div>
-
-                    <div>
-                        <h3>Cocos Creator</h3>
-                        <p>Game Development</p>
-                    </div>
-
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
-
-                </div>
-
-
-                <!-- C# -->
-
-                <div class="skill-card">
-
-                    <div class="skill-icon">
-                        C#
-                    </div>
+                    <div class="skill-icon">C#</div>
 
                     <div>
                         <h3>C#</h3>
                         <p>Programming</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
 
-                <!-- Optimization -->
-
                 <div class="skill-card">
 
-                    <div class="skill-icon">
-                        O
-                    </div>
+                    <div class="skill-icon">⚡</div>
 
                     <div>
                         <h3>Optimization</h3>
                         <p>Performance</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
 
-                <!-- Architecture -->
-
                 <div class="skill-card">
 
-                    <div class="skill-icon">
-                        A
-                    </div>
+                    <div class="skill-icon">◆</div>
 
                     <div>
                         <h3>Architecture</h3>
                         <p>Game Systems</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
 
-                <!-- Mobile -->
-
                 <div class="skill-card">
 
-                    <div class="skill-icon">
-                        M
-                    </div>
+                    <div class="skill-icon">M</div>
 
                     <div>
                         <h3>Mobile</h3>
                         <p>Android / iOS</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
 
-                <!-- Monetization -->
-
                 <div class="skill-card">
 
-                    <div class="skill-icon">
-                        $
-                    </div>
+                    <div class="skill-icon">$</div>
 
                     <div>
                         <h3>Monetization</h3>
                         <p>IAP / Ads</p>
                     </div>
 
-                    <span class="skill-arrow">
-                        ↗
-                    </span>
+                    <span class="skill-arrow">↗</span>
 
                 </div>
 
@@ -493,14 +424,11 @@
 
             <div class="tech-list">
 
-                <span>JavaScript</span>
-                <span>TypeScript</span>
                 <span>DOTween</span>
                 <span>Addressables</span>
                 <span>URP</span>
                 <span>AdMob</span>
                 <span>Unity IAP</span>
-                <span>Android Studio</span>
                 <span>Git</span>
                 <span>Profiler</span>
                 <span>Object Pooling</span>
@@ -513,34 +441,30 @@
     </section>
 
 
-    <!-- =========================
-         PROJECTS
-    ========================== -->
+    <!-- PROJECTS -->
 
-    <section
-        id="projects"
-        class="projects"
-    >
+    <section id="projects" class="section projects-section">
 
         <div class="container">
 
-            <div class="section-header">
+            <div class="section-header project-heading">
 
                 <div>
 
-                    <div class="section-label">
-                        03 / Projects
-                    </div>
+                    <span class="section-number">03</span>
 
-                    <h2 class="section-title">
-                        Selected Work
+                    <p class="section-label">SELECTED WORK</p>
+
+                    <h2>
+                        Projects I've
+                        <span>built.</span>
                     </h2>
 
                 </div>
 
-                <p class="section-description">
-                    A selection of game development projects
-                    and technical systems I have worked on.
+                <p class="heading-description">
+                    A selection of mobile game projects and
+                    technical systems I've worked on.
                 </p>
 
             </div>
@@ -548,108 +472,169 @@
 
             <div class="projects-grid">
 
-                <!-- Cleaning Game -->
 
-                <article class="project-card">
+                <article class="project-card project-large">
 
-                    <div class="project-number">
-                        PROJECT / 01
+                    <div class="project-image cleaning">
+
+                        <div class="project-overlay">
+
+                            <span class="project-type">
+                                MOBILE GAME
+                            </span>
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                        </div>
+
+                        <div class="fake-game-ui">
+
+                            <div class="game-title">
+                                CLEAN
+                            </div>
+
+                            <div class="game-object"></div>
+
+                            <div class="progress-bar">
+                                <span></span>
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div class="project-category">
-                        Unity · Mobile
-                    </div>
 
-                    <h3>
-                        Cleaning Game
-                    </h3>
+                    <div class="project-content">
 
-                    <p>
-                        A mobile cleaning game focused on interactive
-                        object systems, multi-stage dirt cleaning,
-                        task management and reusable gameplay architecture.
-                    </p>
+                        <div>
 
-                    <div class="project-tags">
+                            <h3>Cleaning Game</h3>
 
-                        <span>Unity</span>
-                        <span>C#</span>
-                        <span>URP</span>
-                        <span>Shader</span>
-                        <span>Object Pool</span>
-                        <span>Addressables</span>
+                            <p>
+                                Interactive mobile cleaning game
+                                featuring task-driven gameplay,
+                                object pooling and shader-based
+                                dirt cleaning.
+                            </p>
 
-                    </div>
+                        </div>
 
-                </article>
+                        <div class="project-tags">
 
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>URP</span>
+                            <span>Shader</span>
 
-                <!-- Block Puzzle -->
-
-                <article class="project-card">
-
-                    <div class="project-number">
-                        PROJECT / 02
-                    </div>
-
-                    <div class="project-category">
-                        Unity · Puzzle
-                    </div>
-
-                    <h3>
-                        Block Puzzle
-                    </h3>
-
-                    <p>
-                        A mobile block puzzle game focused on board
-                        evaluation, procedural block placement,
-                        optimization and AI-assisted gameplay analysis.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Unity</span>
-                        <span>C#</span>
-                        <span>AI</span>
-                        <span>MCTS</span>
-                        <span>Mobile</span>
-                        <span>Optimization</span>
+                        </div>
 
                     </div>
 
                 </article>
 
 
-                <!-- Unlock Ring -->
+                <article class="project-card">
+
+                    <div class="project-image block-blast">
+
+                        <div class="project-overlay">
+
+                            <span class="project-type">
+                                PUZZLE
+                            </span>
+
+                        </div>
+
+                        <div class="puzzle-grid">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div>
+
+                            <h3>Block Puzzle</h3>
+
+                            <p>
+                                Casual puzzle game focused on
+                                board evaluation and gameplay
+                                optimization.
+                            </p>
+
+                        </div>
+
+                        <div class="project-tags">
+
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>AI</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
 
                 <article class="project-card">
 
-                    <div class="project-number">
-                        PROJECT / 03
+                    <div class="project-image ring-game">
+
+                        <div class="project-overlay">
+
+                            <span class="project-type">
+                                CASUAL
+                            </span>
+
+                        </div>
+
+                        <div class="rings">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
                     </div>
 
-                    <div class="project-category">
-                        Unity · Puzzle
-                    </div>
 
-                    <h3>
-                        Unlock Ring
-                    </h3>
+                    <div class="project-content">
 
-                    <p>
-                        A puzzle game built around color matching,
-                        object unlocking, undo mechanics,
-                        rewards and mobile monetization.
-                    </p>
+                        <div>
 
-                    <div class="project-tags">
+                            <h3>Unlock Ring</h3>
 
-                        <span>Unity</span>
-                        <span>C#</span>
-                        <span>DOTween</span>
-                        <span>AdMob</span>
-                        <span>IAP</span>
-                        <span>Haptics</span>
+                            <p>
+                                Casual puzzle experience with
+                                progression, rewards and
+                                monetization systems.
+                            </p>
+
+                        </div>
+
+                        <div class="project-tags">
+
+                            <span>Unity</span>
+                            <span>AdMob</span>
+                            <span>IAP</span>
+
+                        </div>
 
                     </div>
 
@@ -662,120 +647,95 @@
     </section>
 
 
-    <!-- =========================
-         MY JOURNEY
-    ========================== -->
+    <!-- EXPERIENCE -->
 
-    <section
-        id="experience"
-        class="experience"
-    >
+    <section id="experience" class="section experience-section">
 
         <div class="container">
 
             <div class="section-header">
 
+                <span class="section-number">04</span>
+
                 <div>
-
-                    <div class="section-label">
-                        04 / My Journey
-                    </div>
-
-                    <h2 class="section-title">
-                        My Journey
-                    </h2>
-
+                    <p class="section-label">EXPERIENCE</p>
+                    <h2>My <span>journey.</span></h2>
                 </div>
-
-                <p class="section-description">
-                    Experience across game development,
-                    mobile platforms and modern development workflows.
-                </p>
 
             </div>
 
 
             <div class="timeline">
 
-                <!-- Mobile Game Development -->
-
                 <div class="timeline-item">
 
-                    <div class="timeline-dot"></div>
-
                     <div class="timeline-date">
-                        EXPERIENCE
+                        PRESENT
                     </div>
 
-                    <h3>
-                        Mobile Game Development
-                    </h3>
+                    <div class="timeline-marker"></div>
 
-                    <h4>
-                        Unity · C# · Mobile
-                    </h4>
+                    <div class="timeline-content">
 
-                    <p>
-                        Developed and maintained mobile games with
-                        gameplay systems, UI, optimization,
-                        monetization, SDK integration and reusable
-                        architecture.
-                    </p>
+                        <p class="timeline-role">
+                            UNITY GAME DEVELOPER
+                        </p>
+
+                        <h3>Mobile Game Development</h3>
+
+                        <p>
+                            Developing mobile games with Unity,
+                            focusing on gameplay systems,
+                            architecture, optimization,
+                            monetization and live development.
+                        </p>
+
+                        <div class="timeline-tags">
+
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Mobile</span>
+                            <span>Optimization</span>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
 
-                <!-- AI Assisted -->
-
                 <div class="timeline-item">
 
-                    <div class="timeline-dot"></div>
-
                     <div class="timeline-date">
-                        CURRENT FOCUS
+                        NOW
                     </div>
 
-                    <h3>
-                        AI-Assisted Game Development
-                    </h3>
+                    <div class="timeline-marker"></div>
 
-                    <h4>
-                        AI Tools · Agents · Development Workflow
-                    </h4>
+                    <div class="timeline-content">
 
-                    <p>
-                        Exploring AI-assisted workflows for game
-                        development, including AI coding agents,
-                        automated development workflows and
-                        productivity improvements.
-                    </p>
+                        <p class="timeline-role">
+                            CURRENT FOCUS
+                        </p>
 
-                </div>
+                        <h3>AI-Assisted Game Development</h3>
 
+                        <p>
+                            Exploring AI-assisted development,
+                            agent workflows and modern tools
+                            to accelerate game production.
+                        </p>
 
-                <!-- Cocos -->
+                        <div class="timeline-tags">
 
-                <div class="timeline-item">
+                            <span>AI</span>
+                            <span>Claude</span>
+                            <span>Unity</span>
+                            <span>Automation</span>
 
-                    <div class="timeline-dot"></div>
+                        </div>
 
-                    <div class="timeline-date">
-                        GAME DEVELOPMENT
                     </div>
-
-                    <h3>
-                        Cocos Game Developer
-                    </h3>
-
-                    <h4>
-                        Cocos Creator · JavaScript · TypeScript
-                    </h4>
-
-                    <p>
-                        Developing mobile games with Cocos Creator,
-                        focusing on gameplay programming, UI systems,
-                        game logic and mobile deployment workflows.
-                    </p>
 
                 </div>
 
@@ -786,38 +746,28 @@
     </section>
 
 
-    <!-- =========================
-         CONTACT
-    ========================== -->
+    <!-- CONTACT -->
 
-    <section
-        id="contact"
-        class="contact"
-    >
+    <section id="contact" class="contact-section">
 
         <div class="container">
 
-            <div class="contact-container">
+            <div class="contact-card">
 
-                <div>
+                <p class="section-label">
+                    HAVE A PROJECT?
+                </p>
 
-                    <div class="section-label">
-                        05 / Contact
-                    </div>
+                <h2>
+                    Let's build something
+                    <span>great.</span>
+                </h2>
 
-                    <h2>
-                        Let's Build
-                        <br>
-                        Something Great.
-                    </h2>
-
-                    <p>
-                        I'm open to game development opportunities,
-                        interesting projects and collaborations.
-                    </p>
-
-                </div>
-
+                <p>
+                    I'm always interested in interesting game
+                    projects, technical challenges and new
+                    opportunities.
+                </p>
 
                 <a
                     href="mailto:dat.dq1995@gmail.com"
@@ -836,10 +786,6 @@
 </main>
 
 
-<!-- =========================
-     FOOTER
-========================== -->
-
 <footer>
 
     <div class="container footer-container">
@@ -849,75 +795,17 @@
         </div>
 
         <p>
-            Designed &amp; built with a game developer mindset.
+            Designed & built with Unity mindset.
         </p>
 
         <div class="footer-links">
 
-            <!-- GitHub -->
+            <a href="#">https://github.com/datdq95</a>
 
-            <a
-                href="https://github.com/datdq95"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-                title="GitHub"
-            >
-                <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                >
-                    <path
-                        d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.167 6.839 9.49.5.092.682-.217.682-.483
-                        0-.237-.009-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.155-1.11-1.463-1.11-1.463
-                        -.908-.62.069-.608.069-.608 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.91.831
-                        .091-.646.35-1.087.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.685
-                        -.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844
-                        c.85.004 1.705.115 2.504.337 1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.202 2.394.1 2.647
-                        .64.701 1.028 1.594 1.028 2.685 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852
-                        0 1.336-.012 2.415-.012 2.744 0 .268.18.579.688.481A10.001 10.001 0 0 0 22 12
-                        C22 6.477 17.523 2 12 2Z"
-                    />
-                </svg>
-            </a>
+            <a href="#">https://www.linkedin.com/in/datdq/</a>
 
-
-            <!-- LinkedIn -->
-
-            <a
-                href="https://www.linkedin.com/in/datdq/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-                title="LinkedIn"
-            >
-                <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                >
-                    <path
-                        d="M6.5 8.5A1.5 1.5 0 1 0 6.5 5.5a1.5 1.5 0 0 0 0 3ZM5.25 9.75h2.5V18h-2.5V9.75ZM9.25 9.75h2.4v1.13h.03c.334-.633 1.15-1.3 2.37-1.3
-                        2.535 0 3.005 1.667 3.005 3.837V18h-2.5v-4.06c0-.969-.017-2.216-1.35-2.216-1.352 0-1.558 1.056-1.558 2.146V18h-2.4V9.75Z"
-                    />
-                </svg>
-            </a>
-
-
-            <!-- Email -->
-
-            <a
-                href="mailto:dat.dq1995@gmail.com"
-                aria-label="Email"
-                title="Email"
-            >
-                <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                >
-                    <path
-                        d="M3 5.5h18A1.5 1.5 0 0 1 22.5 7v10A1.5 1.5 0 0 1 21 18.5H3A1.5 1.5 0 0 1 1.5 17V7A1.5 1.5 0 0 1 3 5.5Zm0 2.25v.18l9 5.43 9-5.43v-.18H3Zm18 8.5V10.55l-8.61 5.19a.75.75 0 0 1-.78 0L3 10.55v5.7c0 .138.112.25.25.25h17.5a.25.25 0 0 0 .25-.25Z"
-                    />
-                </svg>
+            <a href="mailto:dat.dq1995@gmail.com">
+                Email
             </a>
 
         </div>
@@ -932,20 +820,16 @@
     const sections = document.querySelectorAll("section[id]");
     const navLinks = document.querySelectorAll(".nav-links a");
 
-    function updateActiveNav() {
+    window.addEventListener("scroll", () => {
 
-        let currentSection = "";
+        let current = "";
 
         sections.forEach(section => {
 
-            const sectionTop = section.offsetTop - 140;
-            const sectionHeight = section.offsetHeight;
+            const sectionTop = section.offsetTop - 200;
 
-            if (
-                window.scrollY >= sectionTop &&
-                window.scrollY < sectionTop + sectionHeight
-            ) {
-                currentSection = section.getAttribute("id");
+            if (window.scrollY >= sectionTop) {
+                current = section.getAttribute("id");
             }
 
         });
@@ -954,22 +838,13 @@
 
             link.classList.remove("active");
 
-            if (
-                link.getAttribute("href") === "#" + currentSection
-            ) {
+            if (link.getAttribute("href") === "#" + current) {
                 link.classList.add("active");
             }
 
         });
 
-    }
-
-    window.addEventListener(
-        "scroll",
-        updateActiveNav
-    );
-
-    updateActiveNav();
+    });
 
 </script>
 
